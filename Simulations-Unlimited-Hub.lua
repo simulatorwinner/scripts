@@ -18,4 +18,5 @@ else
 		Description = "go to simulatorwinner.xyz/features to check the scripts available";
 		Duration = 3;
 	});
-	setclipboard("simulatorwinner.xyz/scripts")
+	setclipboard("simulatorwinner.xyz/features")
+end
