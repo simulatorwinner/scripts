@@ -15,7 +15,7 @@ else
 	local Notify = AkaliNotif.Notify;
 	Notify({
 		Title = "Game Not Supported";
-		Description = "go to simulatorwinner.xyz/scripts to check the scripts available";
+		Description = "go to simulatorwinner.xyz/features to check the scripts available";
 		Duration = 3;
 	});
 	setclipboard("simulatorwinner.xyz/scripts")
