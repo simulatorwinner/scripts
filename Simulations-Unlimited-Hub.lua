@@ -10,13 +10,15 @@ elseif gameId == 2619187362 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/simulatorwinner/scripts/main/Super-Power-Fighting-Sim-GUI.lua"))()
 elseif gameId == 7485253727 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/simulatorwinner/scripts/main/True-Piece-GUI.lua"))()
+elseif gameId == 6085586197 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/simulatorwinner/scripts/main/Project-Hero-GUI.lua"))()
 else
 	local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 	local Notify = AkaliNotif.Notify;
 	Notify({
 		Title = "Game Not Supported";
-		Description = "go to simulatorwinner.xyz/features to check the scripts available";
+		Description = "go to discord.gg/fRpJJCVn8R to check the scripts available";
 		Duration = 3;
 	});
-	setclipboard("simulatorwinner.xyz/features")
+	setclipboard("discord.gg/fRpJJCVn8R")
 end
